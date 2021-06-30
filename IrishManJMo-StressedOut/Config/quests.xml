@@ -1,0 +1,23 @@
+<StressedOut>		
+ <append xpath="/quests">		
+		
+		<quest id="Skill Book">
+		<property name="group_name_key" value="Skill Book"/>
+		<property name="name_key" value="Skill Book"/>
+		<property name="subtitle_key" value="Enlightenment"/>
+		<property name="description_key" value="The knowledge contained in this book will go a long way"/>
+		<property name="icon" value="ui_game_symbol_map_bed"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="offer_key" value="Read this book for some inspiration"/>
+		<property name="shareable" value="false"/>
+
+		<!--<action type="ShowTip" value="Book6"/>-->
+		<action type="TrackQuest"/>
+
+		
+		<reward type="SkillPoints" value="1"/>
+	</quest>
+		
+	</append>	
+</StressedOut>
